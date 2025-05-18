@@ -11,23 +11,29 @@ int main() {
 
     // Implementação de Movimentação da Torre
     int i = 0;
+    printf("Torre iniciou o movimento:\n");
     while (i < torremov) 
     {
-        printf("Torre moveu uma casa para a direita \n");
+        printf("| Direita \n");
         i++;
     }
+    printf("Torre finalizou o movimento.\n\n");
     // Implementação de Movimentação do Bispo
     i = 0;
+    printf("Bispo iniciou o movimento:\n");
     do
     {
-        printf("Bispo moveu uma casa para a diagonal cima-direita \n");
+        printf("| Cima Direita \n");
         i++;    /* code */
     } while (i < bispomov);
+    printf("Bispo finalizou o movimento.\n\n");
     // Implementação de Movimentação da Rainha
+    printf("Rainha iniciou o movimento:\n");
     for (i = 0; i < rainhmov; i++)
     {
-        printf("Rainha moveu uma casa para a esquerda \n");
+        printf("| Esquerda \n");
     }
+    printf("Rainha finalizou o movimento.\n\n");
 
     return 0;
 }
